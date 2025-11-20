@@ -1,0 +1,43 @@
+{
+  "hash": "8dc588b4",
+  "configHash": "1cb0daad",
+  "lockfileHash": "d7fe0421",
+  "browserHash": "feae3d9b",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "9903bb13",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "af78f469",
+      "needsInterop": true
+    },
+    "@vanilla-extract/sprinkles": {
+      "src": "../../node_modules/@vanilla-extract/sprinkles/dist/vanilla-extract-sprinkles.esm.js",
+      "file": "@vanilla-extract_sprinkles.js",
+      "fileHash": "0f5f2af1",
+      "needsInterop": false
+    },
+    "@vanilla-extract/recipes": {
+      "src": "../../node_modules/@vanilla-extract/recipes/dist/vanilla-extract-recipes.esm.js",
+      "file": "@vanilla-extract_recipes.js",
+      "fileHash": "0157c4f6",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-IGXLOIK6": {
+      "file": "chunk-IGXLOIK6.js"
+    },
+    "chunk-2J7G35HP": {
+      "file": "chunk-2J7G35HP.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
+}

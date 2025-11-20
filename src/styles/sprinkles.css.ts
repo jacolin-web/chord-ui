@@ -1,4 +1,3 @@
-// sprinkles.css.ts
 import { defineProperties, createSprinkles } from '@vanilla-extract/sprinkles';
 
 const space = {

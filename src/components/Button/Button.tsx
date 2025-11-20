@@ -1,4 +1,3 @@
-// Button.tsx
 import { button } from './button.css';
 import { sprinkles } from '../../styles/sprinkles.css';
 

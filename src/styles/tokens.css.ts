@@ -1,8 +1,31 @@
-// tokens.css.ts
 export const tokens = {
+  font: {
+    family: {
+      body: 'ABeeZee, sans-serif',
+      heading: 'Literata, serif',
+      mono: 'Fira Code", Courier New, monospace',
+    },
+    weight: {
+      normal: '400',
+      medium: '500',
+      semibold: '600',
+      bold: '700',
+    },
+  },
+  fontSize: {
+    sm: '14px',
+    base: '16px',
+    lg: '18px',
+    xl: '20px',
+  },
   colors: {
-    primary: '#0070f3',
-    secondary: '#666',
+    primary: '#hsl(30, 35%, 55%)',
+    secondary: '#hsl(40, 20%, 28%)',
+    white: 'hsl(40, 30%, 85%)'
+  },
+  foreground: {
+    primary: 'hsl(40, 20%, 28%)',
+    secondary: 'hsl(40, 30%, 85%)',
   },
   spacing: {
     xs: 4,
