@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export const tokens = {
   font: {
     family: {
@@ -26,6 +27,13 @@ export const tokens = {
   foreground: {
     primary: 'hsl(40, 20%, 28%)',
     secondary: 'hsl(40, 30%, 85%)',
+=======
+// tokens.css.ts
+export const tokens = {
+  colors: {
+    primary: '#0070f3',
+    secondary: '#666',
+>>>>>>> b5d7246 (Initial commit)
   },
   spacing: {
     xs: 4,

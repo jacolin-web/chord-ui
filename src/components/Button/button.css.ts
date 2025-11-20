@@ -17,6 +17,7 @@ export const button = recipe({
       }
     },
     variant: {
+<<<<<<< HEAD
       primary: { 
         backgroundColor: tokens.foreground.primary,
         borderColor: tokens.foreground.primary,
@@ -27,6 +28,10 @@ export const button = recipe({
         borderColor: tokens.foreground.secondary,
         color: tokens.colors.secondary,
       },
+=======
+      primary: { backgroundColor: tokens.colors.primary },
+      secondary: { backgroundColor: tokens.colors.secondary },
+>>>>>>> b5d7246 (Initial commit)
     },
   },
 });
