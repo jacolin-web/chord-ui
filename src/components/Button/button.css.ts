@@ -7,7 +7,9 @@ export const button = recipe({
     padding: tokens.spacing.sm,
     borderRadius: tokens.radii.md,
     fontFamily: tokens.font.family.mono,
-    fontWeight: tokens.font.weight.bold
+    fontWeight: tokens.font.weight.bold,
+    borderWidth: 1,
+    borderStyle: 'solid', 
   },
   variants: {
     size: {
@@ -20,14 +22,14 @@ export const button = recipe({
     },
     variant: {
       primary: { 
-        backgroundColor: tokens.background.primary,
-        borderColor: tokens.background.primary,
+        backgroundColor: tokens.colors.background.primary,
         color: tokens.colors.primary,
+        borderColor: tokens.colors.secondary,
       },
       secondary: { 
-        backgroundColor: tokens.background.secondary, 
-        borderColor: tokens.background.secondary,
+        backgroundColor: tokens.colors.background.base, 
         color: tokens.colors.secondary,
+        borderColor: tokens.colors.accent,
       },
     },
   },

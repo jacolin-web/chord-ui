@@ -6,7 +6,7 @@ globalStyle('body', {
   fontSize: tokens.fontSize.base,
   color: tokens.colors.secondary,
   fontWeight: tokens.font.weight.normal,
-  background: tokens.colors.base
+  background: tokens.colors.background.base
 });
 
 globalStyle('h1, h2, h3, h4, h5, h6', {
