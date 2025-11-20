@@ -4,7 +4,7 @@ import { tokens } from './tokens.css';
 globalStyle('body', {
   fontFamily: tokens.font.family.body,
   fontSize: tokens.fontSize.base,
-  color: tokens.colors.white,
+  color: tokens.colors.secondary,
   fontWeight: tokens.font.weight.normal,
   background: tokens.colors.base
 });

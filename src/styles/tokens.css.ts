@@ -3,7 +3,7 @@ export const tokens = {
     family: {
       body: 'ABeeZee, sans-serif',
       heading: 'Literata, serif',
-      mono: 'Fira Code", Courier New, monospace',
+      mono: 'Fira Code, Courier New, monospace',
     },
     weight: {
       normal: '400',
@@ -19,15 +19,14 @@ export const tokens = {
     xl: '20px',
   },
   colors: {
-    primary: '#hsl(30, 35%, 55%)',
-    secondary: '#hsl(40, 20%, 28%)',
-    white: 'hsl(40, 30%, 85%)',
+    primary: 'hsl(40, 20%, 28%)',
+    secondary: 'hsl(40, 30%, 85%)',
     base: 'hsl(30, 20%, 15%)',
     accent: 'hsl(30, 20%, 26%)',
   },
-  foreground: {
-    primary: 'hsl(40, 20%, 28%)',
-    secondary: 'hsl(40, 30%, 85%)',
+  background: {
+    primary: 'hsl(30, 35%, 55%)',
+    secondary: 'hsl(40, 20%, 28%)',
   },
   spacing: {
     xs: 4,
