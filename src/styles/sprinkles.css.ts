@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-// sprinkles.css.ts
->>>>>>> b5d7246 (Initial commit)
 import { defineProperties, createSprinkles } from '@vanilla-extract/sprinkles';
 
 const space = {

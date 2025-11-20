@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-// Button.tsx
->>>>>>> b5d7246 (Initial commit)
 import { button } from './button.css';
 import { sprinkles } from '../../styles/sprinkles.css';
 
