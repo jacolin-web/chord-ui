@@ -21,7 +21,9 @@ export const tokens = {
   colors: {
     primary: '#hsl(30, 35%, 55%)',
     secondary: '#hsl(40, 20%, 28%)',
-    white: 'hsl(40, 30%, 85%)'
+    white: 'hsl(40, 30%, 85%)',
+    base: 'hsl(30, 20%, 15%)',
+    accent: 'hsl(30, 20%, 26%)',
   },
   foreground: {
     primary: 'hsl(40, 20%, 28%)',
